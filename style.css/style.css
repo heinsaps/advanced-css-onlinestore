@@ -1,0 +1,104 @@
+body{
+    font-family: Arial;
+    line-height: 1.5;
+    color: black;
+    background-color: lightblue;
+    margin: 1%;
+    padding: 0%;
+}   
+h1{
+    margin-bottom: 20px;
+}
+p{
+    margin-bottom: 20px;
+}
+div.img{
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+div.jordan{
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+div.air{
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+div.travis{
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+@media only screen and (max-width: 768px) {
+body {
+    background-color: lightcyan;
+}
+    
+}
+@media only screen and (max-width: 768px) {
+    /* For Mobile Phones: */
+    [class*="img"]{
+        width: 100%;
+    }
+    .center {text-align: center;}
+    .air {width: 100%;}
+    .travis {width: 100%;}
+    .jordan {width: 100%;} 
+    .foot {text-align: center;}
+}
+a:hover{
+    text-decoration: underline;
+}
+ul{
+    list-style: none;
+    padding: 0%;
+    margin-bottom: 0%;
+    
+}
+li{
+    padding: 0%;
+    margin: 5px;
+    text-decoration: none;
+}
+nav{
+    margin-right: 50px;
+}
+nav ul{
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+    align-items: center;
+    height: 40px;
+}
+nav li{
+    margin: 0% 15px;
+}
+nav a:hover{
+    background-color: lightslategray;
+    border: none;
+    color: black;
+    padding: 15px 30px;
+    display: inline-block;
+}
+button{
+    background-color: whitesmoke  ;
+    border: none;
+    color: black;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+div:hover{
+    background-color: lightslategray;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;  
+}
+
